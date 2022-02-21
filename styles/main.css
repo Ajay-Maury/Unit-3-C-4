@@ -3,12 +3,11 @@
   }
   #sidebar{
     flex: 2;
-    border: 1px solid;
     text-align: center;
   }
   #main{
     flex: 8;
-    border: 1px solid red;
+    padding: 10px;
   }
   .frame{
     display: flex;
