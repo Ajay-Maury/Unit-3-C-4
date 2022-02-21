@@ -45,4 +45,15 @@
   let parent = document.getElementById("main")
   appendArticles(val,parent)
 
+  document.getElementById("searchbar").addEventListener("keypress",(e)=>{
+  // console.log(e.key)
+  if(e.key=="Enter")
+  {
+    let val = document.getElementById("searchbar").value;    
+    // console.log(val)
+    localStorage.setItem("search_term",val)
+    window.location.href = "search.html"
+  }
+})
+
 </script>
