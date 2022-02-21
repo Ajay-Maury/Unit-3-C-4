@@ -10,6 +10,6 @@ function sidebar() {
     <p>Startups</p>
     <p>Newsletters</p>
     <p>Audio</p>
-    <p>Video</p>`;
+    <p>Video</p>`
 }
 export default sidebar
